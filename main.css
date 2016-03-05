@@ -8,6 +8,7 @@ body {
   line-height: 1.4;
   margin: 1.5rem 0;
   color: #333;
+  word-break: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -88,11 +89,10 @@ body {
   background-color: #efefcc;
   color: #333;
   text-decoration: none;
-  word-break: break-word;
 }
 
 .section__detail {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .section__list {
@@ -136,7 +136,7 @@ body {
 }
 
 
-@media (min-width: 30rem){
+@media (min-width: 40rem){
 
   .header {
     text-align: right;
