@@ -44,7 +44,6 @@ body {
   display: inline-block;
   width: 100%;
   padding: 0.5rem;
-
 }
 
 .section__title {
@@ -135,9 +134,7 @@ body {
   font-size: 0.6rem;
 }
 
-
-@media (min-width: 40rem){
-
+@media (min-width: 40rem) {
   .header {
     text-align: right;
   }
@@ -181,7 +178,6 @@ body {
   .sections__aside {
     width: 40%;
   }
-
 }
 
 @media print {
